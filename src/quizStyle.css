@@ -1,23 +1,23 @@
 body{
-  background-color:#B692C2;
+  background-color:#D3F1DF;
   margin: 0px;
   padding: 0px;
 
 }
 .scorePage {
   text-align: center;
-  background-color: #E3A5C7;
+  background-color: #D3F1DF;
   border: 2px solid black;
-  padding: 40px;
+  padding: 100px 10px;
   border-radius: 15px;
-  margin-top: 100px;
+  margin: 100px;
 }
 
 .quiz {
   margin: auto;
   margin-top: 50px;
   padding: 20px;
-  background-color: #E3A5C7;
+  background-color: #8dbd9b;
   width: 70%;
   border-radius: 10px;
   display: flex;
@@ -28,7 +28,7 @@ body{
 .quiz ul li {
   display: flex;
   align-items: center;
-  border: 1px solid #694F8E;
+  border: 1px solid #85A98F;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
@@ -38,21 +38,21 @@ body{
 }
 
 .quiz ul li.selected {
-  background-color: #694F8E;
+  background-color: #81BFDA;
   color: white;
 }
 
 .quiz button {
   padding: 10px;
-  width: 400px;
+  width: 300px;
   border-radius: 15px;
-  background-color: #E49BFF;
+  background-color: #81BFDA;
   color: black;
-  border: 1px solid black;
+  border: 1px solid #5A6C57;
 }
 
 .quiz button:hover {
-  background-color: aliceblue;
-  border: 1px solid plum;
+  background-color: #D3F1DF;
+  border: 1px solid #5A6C57;
   cursor: pointer;
 }
